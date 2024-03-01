@@ -1,0 +1,116 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.header {
+    background-color: darkcyan;
+    padding: 10px;
+    border-bottom: 3px solid coral;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 100%;
+}
+
+.header h1 {
+    color: aliceblue;
+    display: inline;
+}
+
+.header span {
+    color: coral;
+}
+
+.header a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    margin-top: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    color: coral;
+}
+
+.garden img {
+    width: 101.4%;
+    height: 605px;
+}
+
+.footer {
+    background-color: darkcyan;
+    border-top: 5px solid coral;
+    padding: 10px;
+    color: aliceblue;
+    display: inline-block;
+    width: 100%;
+}
+
+.chap {
+    display: inline;
+}
+
+.ong {
+    float: right;
+}
+
+.garden {
+    background-image: url(/6-dars/2-mashiq/photo.jpg);
+    padding: 230px;
+}
+
+.garden form {
+    width: 200px;
+    margin: auto;
+}
+
+.garden input {
+    display: block;
+    margin: 8px auto;
+    margin-top: 20px;
+    padding: 8px;
+    width: 220px;
+    border: none;
+    background-color: 000;
+    border-radius: 10px;
+}
+
+.garden button {
+    display: block;
+    margin: auto;
+}
+.garden button:hover{
+    background-color: coral;
+    color: aliceblue;
+}
+
+.garden button{
+    padding: 5px;
+    margin: 8px auto;
+    background-color: blue;
+    color: aliceblue;
+    border:none;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.garden a {
+    display: block;
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+}
